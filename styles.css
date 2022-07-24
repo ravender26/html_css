@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hubballi', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.container {
+    background-image: url(./images/image_processing20191209-1982-ey60dy.gif);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navBar{
+    box-shadow: rgb(245 245 250) -50px 50px 250px -80px inset;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.blue{
+  position:fixed;
+  top:0;
+  background:blue;
+}
+
+.navBar img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+    color: aliceblue;
+}
+
+.boby h6 {
+    color: aliceblue;
+    text-shadow: 5px 7px 10px #c7abab;
+    width: 500px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.boby h1 {
+    color: aliceblue;
+    text-shadow: 5px 7px 10px #c7abab;
+    text-align: center;
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.body_header{
+    box-shadow: rgb(245 245 250) -50px -50px 100px -80px inset;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 190px 0 190px 0;
+}
+
+.body_header img {
+    height: 50vh;
+    max-width: 40vw;
+    border-radius: 50px;
+}
+.body_header_img_left{
+    box-shadow: -10px 0px 15px rgb(245 245 250);
+}
+.body_header_img_right{
+    box-shadow: 10px 0px 15px rgb(245 245 250);
+}
